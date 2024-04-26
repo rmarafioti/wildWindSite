@@ -1,13 +1,23 @@
+import { NavLink } from "react-router-dom";
+
 export default function Navbar() {
   return (
-    <>
+    <nav>
       <h1>NAVBAR</h1>
       <ul>
-        <li>home</li>
-        <li>tattoos</li>
-        <li>shop</li>
-        <li>contact</li>
+        <li>
+          <NavLink to="/">HOME</NavLink>
+        </li>
+        <li>
+          <NavLink to="/tattoos">TATTOOS</NavLink>
+        </li>
+        <li>
+          <NavLink to="/shop">SHOP</NavLink>
+        </li>
+        <li>
+          <NavLink to="/contact">CONTACT</NavLink>
+        </li>
       </ul>
-    </>
+    </nav>
   );
 }
