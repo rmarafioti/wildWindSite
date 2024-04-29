@@ -13,4 +13,6 @@ Currently, two official plugins are available:
 
 ![Site Wireframe Mobile](src/images/wireframeMobile.png)
 
+![SiteWireframeDesktop](src/images/Untitled_Artwork.png)
+
 Color coding to specify HTML container grouping
