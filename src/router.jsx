@@ -7,6 +7,7 @@ import Shop from "./layout/Shop";
 import Tattoos from "./layout/Tattoos";
 import Deposits from "./layout/Deposits";
 import GiftCards from "./layout/GiftCards";
+import Aftercare from "./layout/AfterCare";
 
 const router = createBrowserRouter([
   {
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
       {
         path: "/giftcards",
         element: <GiftCards />,
+      },
+      {
+        path: "/aftercare",
+        element: <Aftercare />,
       },
     ],
   },

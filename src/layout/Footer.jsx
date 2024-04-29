@@ -23,6 +23,9 @@ export default function Footer() {
         <li>
           <NavLink to="/giftcards">GIFT CARDS</NavLink>
         </li>
+        <li>
+          <NavLink to="/aftercare">AFTERCARE</NavLink>
+        </li>
         <li>social media</li>
       </ul>
     </>
