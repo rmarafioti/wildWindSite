@@ -1,3 +1,5 @@
+import { tattooPhotos } from "../tattooPhotos";
+
 export default function Tattoos() {
   return (
     <>
