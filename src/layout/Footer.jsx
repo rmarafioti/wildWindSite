@@ -8,7 +8,7 @@ export default function Footer() {
       <h1>FOOTER</h1>
       <ul>
         <li>
-          <NavLink to="/">HOME ICON</NavLink>
+          <NavLink to="/">HOME</NavLink>
         </li>
         <li>
           <NavLink to="/tattoos">TATTOOS</NavLink>
