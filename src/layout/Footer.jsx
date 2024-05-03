@@ -1,4 +1,6 @@
 import { NavLink } from "react-router-dom";
+import { FaFacebookSquare } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -18,6 +20,16 @@ export default function Footer() {
           <NavLink to="/contact">CONTACT</NavLink>
         </li>
         <li>
+          <a href="https://www.instagram.com/wildwindtattoo/?hl=en">
+            <FaInstagram />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/wildwindtattoo/">
+            <FaFacebookSquare />
+          </a>
+        </li>
+        <li>
           <NavLink to="/deposits">DEPOSITS</NavLink>
         </li>
         <li>
@@ -26,7 +38,6 @@ export default function Footer() {
         <li>
           <NavLink to="/aftercare">AFTERCARE</NavLink>
         </li>
-        <li>social media</li>
       </ul>
     </>
   );

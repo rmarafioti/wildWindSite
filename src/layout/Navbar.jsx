@@ -6,7 +6,7 @@ export default function Navbar() {
       <h1>NAVBAR</h1>
       <ul>
         <li>
-          <NavLink to="/">HOME</NavLink>
+          <NavLink to="/">HOME ICON</NavLink>
         </li>
         <li>
           <NavLink to="/tattoos">TATTOOS</NavLink>
