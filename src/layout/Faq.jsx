@@ -50,7 +50,7 @@ export default function Faq() {
         Yes, a $60 deposit is required for each appointment. Once the date and
         time are arranged, you will be directed to our deposit form. Your
         appointment is not confirmed until we receive your deposit. This deposit
-        will be deducted from the cost of your tattoo at the final session, or
+        will be deducted from the cost of your tattoo when it is completed, or
         if your tattoo requires multiple sessions, it will be deducted during
         the last session.
       </p>
