@@ -8,6 +8,7 @@ import Tattoos from "./layout/Tattoos";
 import Deposits from "./layout/Deposits";
 import GiftCards from "./layout/GiftCards";
 import Aftercare from "./layout/AfterCare";
+import Faq from "./layout/Faq";
 
 const router = createBrowserRouter([
   {
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
       {
         path: "/aftercare",
         element: <Aftercare />,
+      },
+      {
+        path: "/faqs",
+        element: <Faq />,
       },
     ],
   },
