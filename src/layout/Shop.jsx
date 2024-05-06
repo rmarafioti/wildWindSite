@@ -6,7 +6,7 @@ export default function Shop() {
     <>
       <h1>SHOP</h1>
       <p>
-        Founded by Rich Marafioti, Wild Wind Tattoo has provided expert
+        Rich Marafioti founded Wild Wind Tattoo, which has provided expert
         tattooing in Chicago since 2015. Located in vibrant Wicker Park, Wild
         Wind Tattoo offers a bright, welcoming, and relaxing space for clients
         to get tattooed. Beautiful tattoos are just part of what we do. We pride
@@ -17,14 +17,13 @@ export default function Shop() {
       <h2>OUR MISSION</h2>
       <h3>Variety Comfort Professionalism</h3>
       <p>
-        At Wild Wind Tattoo, you can expect to be treated with respect and care.
-        Our artists will clearly communicate all aspects of your tattoo
-        experience to you, from your consultation to caring for your new tattoo.
+        You can expect to be treated with respect and care at WWT. We will
+        communicate all aspects of your tattoo experience, from consultation to
+        caring for your new tattoo.
       </p>
       <p>
-        Our experienced artists offer a wide variety of tattoo styles, from
-        small walk-ins to larger custom pieces. Have something in mind? Just
-        ask!
+        We offer various tattoo styles, from small walk-ins to larger custom
+        pieces. Have something in mind? Just ask!
       </p>
       <p>
         Our community is important to us. We are here to give you the tattoo you
