@@ -17,6 +17,9 @@ export default function Navbar() {
         <li>
           <NavLink to="/contact">CONTACT</NavLink>
         </li>
+        <li>
+          <NavLink to="/faqs">FAQs</NavLink>
+        </li>
       </ul>
     </nav>
   );

@@ -20,6 +20,9 @@ export default function Footer() {
           <NavLink to="/contact">CONTACT</NavLink>
         </li>
         <li>
+          <NavLink to="/faqs">FAQs</NavLink>
+        </li>
+        <li>
           <a href="https://www.instagram.com/wildwindtattoo/?hl=en">
             <FaInstagram />
           </a>

@@ -1,3 +1,6 @@
+import { FaFacebookSquare } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+
 export default function Shop() {
   return (
     <>
@@ -36,6 +39,16 @@ export default function Shop() {
         Fund. We are currently partnered with Chicago Therapy Collective's Hire
         Trans Now initiative.
       </p>
+      <h1>
+        <a href="https://www.instagram.com/wildwindtattoo/?hl=en">
+          <FaInstagram />
+        </a>
+      </h1>
+      <h1>
+        <a href="https://www.facebook.com/wildwindtattoo/">
+          <FaFacebookSquare />
+        </a>
+      </h1>
     </>
   );
 }
