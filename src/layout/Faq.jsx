@@ -2,71 +2,72 @@ export default function Faq() {
   return (
     <>
       <h1>FAQS</h1>
-      <h3>Does Wild Wind Tattoo take walk ins?</h3>
+      <h3>Does Wild Wind Tattoo accept walk ins?</h3>
       <p>
-        We try to accommodate everyone and if we have open time we will take
-        walk ins. You can always call the shop the day you are thinking of
-        coming in and we can let you know who is available for walk ins. As long
-        as the tattoo isn’t a larger custom piece that needs a lot of prep time
-        we will take care of you. Please remember walk ins are always first come
-        first served and there is always the possibility of some wait time if
-        you do not have an appointment.
+        WWT strives to accommodate all clients and may accept walk-ins if there
+        are available openings. We recommend calling ahead on the day you plan
+        to visit to check availability. Walk-ins are ideal for smaller tattoos
+        that require minimal preparation. Please note that walk-ins are
+        first-come, first-served, and there may be a wait if you do not have an
+        appointment.
       </p>
       <h3>What is the shop minimum?</h3>
       <p>
-        Our minimum is $100 and the final price of a tattoo is always determined
-        in person
+        Our shop minimum is $100. The final price of any tattoo will be
+        determined in person based on the design.
       </p>
       <h3>Is the shop cash only?</h3>
       <p>
-        No, we also accept all major credit cards as well as cash. We DO NOT
-        accept checks, Venmo, Square Cash, Chase Quick Pay, etc.
+        No, we accept all major credit cards and cash. Please note that we do
+        not accept checks, Venmo, Square Cash, Chase Quick Pay, or similar
+        payment methods.
       </p>
       <h3>Do you give price quotes through email or over the phone?</h3>
       <p>
-        We can not give a valid price quote through email or over the phone. We
-        may give a general price range but that is only a loose estimate. We
-        cannot determine the price of your tattoo without discussing size,
-        detail and the location of your tattoo with you in person.
+        We do not provide valid price quotes via email or phone. We can offer a
+        general price range, but this is only an estimate. The final price
+        depends on the tattoo's size, detail, and placement, which we'll discuss
+        with you in-person visit.
       </p>
       <h3>What is the wait time for getting an appointment?</h3>
       <p>
-        Every artist schedules at their own pace but typically we can fit in
-        appointments in a two to three week time frame.
+        Wait times vary as each artist manages their own schedule, but
+        typically, we schedule appointments within a two to three-week
+        timeframe.
       </p>
       <h3>How can I make an appointment?</h3>
       <p>
-        {/*add link to contact page*/}Filling out our contact form is a great
-        starting point. Please provide some general info and we will message you
-        back in 1-3 business days. Feel free to send reference photos and
-        describe the design you are looking to get tattooed. All tattoo
-        appointments require deposits, once a date and time is worked out you
-        will be directed to our deposit form to lock in your appointment.
+        {/*add link to contact page*/}Begin the booking process by filling out
+        our contact form with some basic information about your desired tattoo.
+        We will respond within 1-3 business days. After an artist reviews your
+        request, you will be asked to email them back with reference photos and
+        a description of the design. All tattoo appointments require a deposit.
+        Once a date and time are agreed upon, you will be directed to complete
+        our deposit form to secure your appointment.
       </p>
       <h3>Do I have to leave a deposit to make an appointment?</h3>
       <p>
-        Yes, we take a $60 deposit for every appointment. Once the date and time
-        of your appoinment has been worked out you will be directed to our
-        deposit form. Your appointmnet is not made final until your deposit has
-        been recieved. The deposit comes off the price of your tattoo when you
-        get it done. If your tattoo takes multiple sittings the deposit will
-        come off the final session of your tattoo.
+        Yes, a $60 deposit is required for each appointment. Once the date and
+        time are arranged, you will be directed to our deposit form. Your
+        appointment is not confirmed until we receive your deposit. This deposit
+        will be deducted from the cost of your tattoo at the final session, or,
+        if your tattoo requires multiple sessions, it will be deducted during
+        the last session.
       </p>
       <h3>Can I see my tattoo design before my appointment?</h3>
       <p>
-        We do not email out or show drawings to clients prior to their
-        appointments, we feel client and artist collaboration while ,aking
-        design changes is always best to be done in person. Drawings are always
-        ready for you the you come in to get your tattoo. We block out enough
-        time for your appointment to allow for any revisions or changes you may
-        want to make to your tattoo design on the day of your appointment.
+        We do not send out or show tattoo designs via email before appointments,
+        as we believe the best collaboration between client and artist occurs in
+        person. Your design will be ready for review on the day of your
+        appointment, and we set aside enough time to make any revisions or
+        changes you might want.
       </p>
       <h3>What is your cancellation policy?</h3>
       <p>
-        If you give 24 hour notice to cancel your appointment we will still
-        honor your $60 deposit. If you cancel with less than a 24 hour notice
-        you forfeit your deposit and may be asked to drop another deposit to
-        reschedule an appointment.
+        If you cancel your appointment with at least 24 hours' notice, we will
+        honor your $60 deposit for a future appointment. Cancellations made with
+        less than 24 hours' notice will result in the forfeiture of your
+        deposit. To reschedule, you may be required to place another deposit.
       </p>
     </>
   );
