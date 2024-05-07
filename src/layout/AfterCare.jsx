@@ -1,4 +1,11 @@
+import React, { useState, useEffect } from "react";
+
 export default function Aftercare() {
+  const [dropDownOpen, setDropDownOpen] = React.useState(false);
+
+  useEffect(() => {
+    setDropDownOpen(false);
+  });
   return (
     <>
       <h1>AFTER CARE</h1>
