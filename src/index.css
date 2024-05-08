@@ -66,6 +66,31 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.popUpOverlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.popUpContent {
+  max-width: 90%;
+  max-height: 80vh;
+  object-fit: contain;
+  display: block;
+  background-color: white;
+  /*border: 1rem solid white; /* Optional: styling for the content border */
+  overflow-y: auto;
+  overflow-x: hidden;
+  /*box-sizing: border-box; /* Makes sure padding and borders are included in width/height */
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
