@@ -1,8 +1,19 @@
 import { NavLink } from "react-router-dom";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import { useEffect } from "react";
 
 export default function Footer() {
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://assets.calendly.com/assets/external/widget.js";
+    script.async = true;
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
   return (
     <>
       <h1>FOOTER</h1>
@@ -33,7 +44,19 @@ export default function Footer() {
           </a>
         </li>
         <li>
-          <NavLink to="/deposits">DEPOSITS</NavLink>
+          <a
+            href="https://calendly.com/wildwindtattoo"
+            className="calendly-inline-widget"
+            style={{
+              color: "#ffffff",
+              backgroundColor: "#0069ff",
+              padding: "10px 20px",
+              borderRadius: "5px",
+              textDecoration: "none",
+            }}
+          >
+            Schedule time with me
+          </a>
         </li>
         <li>
           <NavLink to="/giftcards">GIFT CARDS</NavLink>
